@@ -3,20 +3,16 @@ game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text =
 if game.PlaceId == 6403373529 then
 
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Correct Game!",Icon = "rbxassetid://7733658504",Duration = 5})
-        
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Checking If Enough...",Icon = "rbxassetid://7733658504",Duration = 5})
 
-if game.Players.LocalPlayer.leaderstats.Slaps.Value >= 100000 then
+if game.Players.LocalPlayer.leaderstats.Slaps.Value >= 1000000 then
 
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Enough",Text = "That's Enough.",Icon = "rbxassetid://7733658504",Duration = 5})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Enough",Text = "That's Enough. You Arleady Got 1M",Icon = "rbxassetid://7733658504",Duration = 5})
 
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Enough",Text = "Go rest.",Icon = "rbxassetid://7733658504",Duration = 5})
                 
 wait(9999999)
-                
-else
 
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough!",Icon = "rbxassetid://7733658504",Duration = 5})
+end
                 
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Checking Slaps...",Icon = "rbxassetid://7733658504",Duration = 5})
                 
