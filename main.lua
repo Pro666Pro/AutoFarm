@@ -10,6 +10,10 @@ if game.Players.LocalPlayer.leaderstats.Slaps.Value >= 100000 then
 
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Enough",Text = "That's Enough.",Icon = "rbxassetid://7733658504",Duration = 5})
 
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Enough",Text = "Go rest.",Icon = "rbxassetid://7733658504",Duration = 5})
+                
+wait(9999999)
+                
 else
 
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "Not Enough!",Icon = "rbxassetid://7733658504",Duration = 5})
